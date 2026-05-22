@@ -3,57 +3,58 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>J ∞ Advanced Designs</title>
+    <title>J Advanced Designs</title>
+
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            color: #222;
+            background: #fff0f7;
+            color: #333;
         }
 
         header {
-            background: #111;
+            background: linear-gradient(135deg, #ff7ac4, #c45bff);
             color: white;
-            padding: 25px;
+            padding: 30px;
             text-align: center;
         }
 
         header h1 {
             margin: 0;
-            font-size: 2.4rem;
+            font-size: 2.6rem;
             letter-spacing: 1px;
         }
 
         nav {
-            background: #222;
-            padding: 10px;
+            background: #c45bff;
+            padding: 12px;
             text-align: center;
         }
 
         nav a {
             color: white;
-            margin: 0 15px;
+            margin: 0 18px;
             text-decoration: none;
             font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #ffb3e6, #d9a6ff);
+            color: #4a004e;
+            text-align: center;
+            padding: 90px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.4rem;
+            margin-bottom: 10px;
         }
 
         .section {
             padding: 60px 20px;
             max-width: 900px;
             margin: auto;
-        }
-
-        .hero {
-            background: linear-gradient(to right, #111, #333);
-            color: white;
-            text-align: center;
-            padding: 100px 20px;
-        }
-
-        .hero h2 {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
         }
 
         .grid {
@@ -65,25 +66,19 @@
         .card {
             background: white;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 2px solid #ffc7ef;
         }
 
         .card h3 {
             margin-top: 0;
-        }
-
-        footer {
-            background: #111;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
+            color: #c45bff;
         }
 
         .btn {
             display: inline-block;
-            background: #111;
+            background: #ff7ac4;
             color: white;
             padding: 12px 20px;
             border-radius: 6px;
@@ -92,7 +87,15 @@
         }
 
         .btn:hover {
-            background: #333;
+            background: #c45bff;
+        }
+
+        footer {
+            background: #c45bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -100,78 +103,73 @@
 <body>
 
 <header>
-    <h1>J ∞ Advanced Designs</h1>
-    <p>Custom 3D Printing • High‑Quality Designs • Made‑to‑Order Creations</p>
+    <h1>J Advanced Designs</h1>
+    <p>Custom 3D Printing • Creative Designs • Made‑to‑Order Creations</p>
 </header>
 
 <nav>
-    <a href="#ready">Ready‑Made Products</a>
+    <a href="#ready">Ready‑Made</a>
     <a href="#custom">Custom Orders</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
 </nav>
 
 <section class="hero">
-    <h2>Bring Your Ideas to Life</h2>
-    <p>From fidget toys to cosplay helmets — if you can imagine it, we can print it.</p>
+    <h2>Beautiful Custom 3D Prints</h2>
+    <p>Cosplay, décor, fidget toys, and anything she imagines.</p>
     <a class="btn" href="#custom">Start a Custom Order</a>
 </section>
 
 <section id="ready" class="section">
-    <h2>Ready‑Made Products</h2>
-    <p>High‑quality 3D printed items available for immediate purchase.</p>
+    <h2 style="text-align:center; color:#c45bff;">Ready‑Made Products</h2>
 
     <div class="grid">
         <div class="card">
             <h3>Fidget Toys</h3>
-            <p>Smooth, durable, and endlessly satisfying designs.</p>
+            <p>Fun, colorful, and smooth designs.</p>
         </div>
 
         <div class="card">
-            <h3>Household Items</h3>
-            <p>Lamps, organizers, décor pieces, and more.</p>
+            <h3>Home Decor</h3>
+            <p>Pretty lamps, organizers, and aesthetic room pieces.</p>
         </div>
 
         <div class="card">
             <h3>Cosplay Props</h3>
-            <p>Helmets, armor pieces, props, and custom builds.</p>
+            <p>Helmets, armor, props — fully detailed and custom.</p>
         </div>
     </div>
 </section>
 
 <section id="custom" class="section">
-    <h2>Custom 3D Printing</h2>
-    <p>Want something unique? We create fully customized designs based on your ideas.</p>
+    <h2 style="text-align:center; color:#c45bff;">Custom 3D Printing</h2>
+    <p style="text-align:center;">She can turn any idea into a real 3D printed creation.</p>
 
     <div class="card">
-        <h3>How Custom Orders Work</h3>
+        <h3>How It Works</h3>
         <ul>
             <li>You send your idea or reference photos</li>
-            <li>We design or model the piece</li>
+            <li>She designs or models the piece</li>
             <li>You approve the design</li>
-            <li>We print, finish, and ship it</li>
+            <li>She prints, finishes, and ships it</li>
         </ul>
         <a class="btn" href="#contact">Request a Custom Quote</a>
     </div>
 </section>
 
 <section id="about" class="section">
-    <h2>About J ∞ Advanced Designs</h2>
-    <p>
-        J is building a custom 3D printing and design business focused on:
-    </p>
+    <h2 style="text-align:center; color:#c45bff;">About J Advanced Designs</h2>
+    <p>She creates:</p>
     <ul>
         <li>High‑quality custom prints</li>
-        <li>Fidget toys and household items</li>
+        <li>Fidget toys & cute accessories</li>
         <li>Cosplay helmets, props, and armor</li>
         <li>Unique made‑to‑order creations</li>
     </ul>
 </section>
 
 <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>For orders, quotes, or questions, reach out below.</p>
-
+    <h2 style="text-align:center; color:#c45bff;">Contact</h2>
     <div class="card">
         <p><strong>Email:</strong> your-email@example.com</p>
         <p><strong>Instagram:</strong> @yourhandle</p>
@@ -180,7 +178,7 @@
 </section>
 
 <footer>
-    <p>© 2026 J ∞ Advanced Designs — All Rights Reserved</p>
+    <p>© 2026 J Advanced Designs — All Rights Reserved</p>
 </footer>
 
 </body>
